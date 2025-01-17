@@ -17,6 +17,7 @@
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "date-fns": "3.6.0",
+>>>>>>> 455897350b7989b5e47914022042fe1cad18dae5
     "eskom-loadshedding-api": "^0.1.5",
     "jsdom": "^24.1.1",
     "lucide-react": "^0.416.0",

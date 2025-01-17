@@ -1,5 +1,4 @@
 import axios from "axios";
-import dateFormat from "dateformat";
 
 const options = {
   method: "GET",
@@ -27,7 +26,7 @@ const Weather = async () => {
       </h1>
       <h2 className="font-bold text-4xl">{response.current.temp_c}&deg;C</h2>
       <p className="text-xl font-medium">
-        {dateFormat(response.current.last_updated, "dddd")}
+        
       </p>
     </div>
   );
