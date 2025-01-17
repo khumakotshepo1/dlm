@@ -16,7 +16,7 @@
     "axios": "^1.7.2",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
-    "date-fns": "^3.6.0",
+    "date-fns": "3.6.0",
     "eskom-loadshedding-api": "^0.1.5",
     "jsdom": "^24.1.1",
     "lucide-react": "^0.416.0",
