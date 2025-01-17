@@ -26,7 +26,7 @@ const Weather = async () => {
       </h1>
       <h2 className="font-bold text-4xl">{response.current.temp_c}&deg;C</h2>
       <p className="text-xl font-medium">
-        
+        hi
       </p>
     </div>
   );
