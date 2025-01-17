@@ -11,8 +11,7 @@ export default async function TenderAdvertsPage() {
 
   return (
     <>
-      <Tenders />
-      <DataTable columns={columns} data={data} />
+      hi
     </>
   );
 }
