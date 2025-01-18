@@ -1,8 +1,4 @@
 import { MenuItems } from "@/components/menu-items";
-import { TypographyH3 } from "@/components/Typography";
-import { Card, CardContent } from "@/components/ui/card";
-import { cn } from "@/lib/utils";
-import Link from "next/link";
 
 const Council = () => {
     const data = [
@@ -13,7 +9,7 @@ const Council = () => {
         },
         {
             title: "Single Whip",
-            link: "council/chief-whip",
+            link: "council/council-whip",
             img: "/img/council/mosalla_mokotla.webp",
         },
         {
