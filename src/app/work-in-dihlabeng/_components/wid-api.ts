@@ -6,7 +6,7 @@ type navLinks = {
 export const widApi: navLinks[] = [
   {
     title: "Tenders",
-    link: "/work-in-dihlabeng/tenders/tender-adverts",
+    link: "/work-in-dihlabeng/tenders",
   },
   {
     title: "Vacancies",

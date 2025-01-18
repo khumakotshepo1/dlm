@@ -13,7 +13,7 @@ export const HeroSection = ({
     <section
       className={`flex flex-col justify-center items-center h-[800px] p-6 bg-[${image}] bg-no-repeat bg-cover relative bg-top `}
     >
-      <div className="text-white z-10 bg-black opacity-80 shadow-lg shadow-black">
+      <div className="text-foreground z-10 bg-black opacity-80 shadow-lg shadow-black">
         <h1 className="text-center capitalize text-3xl font-bold p-3">
           {title}
         </h1>

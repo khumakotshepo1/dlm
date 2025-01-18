@@ -1,4 +1,5 @@
 import Link from "next/link";
+
 import {
   FaInstagram,
   FaFacebook,
@@ -10,7 +11,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="text-gray-400 dark:text-gray-200 flex flex-col gap-3 justify-center items-center mt-36">
+    <footer className="flex flex-col gap-3 justify-center items-center mt-36">
       <ul className="flex justify-center items-center text-2xl p-3 gap-4 ">
         <li>
           <Link
@@ -54,7 +55,7 @@ const Footer = () => {
         </div>
       </article>
       <p className="text-center p-3 text-gray-600 dark:text-gray-400">
-        &copy; 2023 Dihlabeng Local Municipality
+        &copy; {new Date().getFullYear()} Dihlabeng Local Municipality
       </p>
     </footer>
   );
