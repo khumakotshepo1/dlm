@@ -1,4 +1,4 @@
-import type {Config} from "tailwindcss"
+import type { Config } from "tailwindcss"
 
 const config = {
     darkMode: ["class"],
@@ -23,16 +23,18 @@ const config = {
                 Caveat: ['"Caveat"', "cursive"],
                 "Caveat-brush": ['"Caveat Brush"', "cursive"],
             },
+
             backgroundImage: {
                 "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-                "gradient-conic":
-                    "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-                "mayor-hero": 'url("/img/townhall.webp")',
-                "dlm_hq-hero": 'url("/img/dihlabeng_hq.webp")',
+                "gradient-conic": "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+                "mayor": 'url("/img/council/Cllr-Tseki-Tseki-Ward-14-ANC_11zon.webp")',
+                "speaker": 'url("/img/council/Council-Speaker-Cllr-Nthabeleng-Mofokeng.webp")',
+                "council-whip": 'url("/img/council/mosalla_mokotla.webp")',
+                "townhall": 'url("/img/townhall.webp")',
+                "dihlabeng-hq": 'url("/img/dihlabeng_hq.webp")',
                 "jol-hero": 'url("/img/jol-hero.webp")',
                 "clarens-hero": 'url("/img/clarens.webp")',
             },
-
 
             colors: {
                 border: "hsl(var(--border))",
@@ -76,12 +78,12 @@ const config = {
             },
             keyframes: {
                 "accordion-down": {
-                    from: {height: "0"},
-                    to: {height: "var(--radix-accordion-content-height)"},
+                    from: { height: "0" },
+                    to: { height: "var(--radix-accordion-content-height)" },
                 },
                 "accordion-up": {
-                    from: {height: "var(--radix-accordion-content-height)"},
-                    to: {height: "0"},
+                    from: { height: "var(--radix-accordion-content-height)" },
+                    to: { height: "0" },
                 },
             },
             animation: {
