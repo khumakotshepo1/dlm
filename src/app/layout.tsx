@@ -4,7 +4,6 @@ import Footer from "@/components/Footer";
 import { cn } from "@/lib/utils";
 import Header from "@/components/header/Header";
 import { ThemeProvider } from "@/components/theme-provider";
-import { ModeToggle } from "@/components/toggle-mode";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -30,7 +29,7 @@ export default function RootLayout({
         )}
       >
         <ThemeProvider attribute="class"
-          defaultTheme="light"
+          defaultTheme="system"
           enableSystem
           disableTransitionOnChange
         >
