@@ -21,7 +21,7 @@ export const MenuItems = ({ data }: MenuItemsProps) => {
     <section>
       <article className="flex flex-col md:flex-row justify-center items-center gap-4 py-12">
         {data.map((item) => (
-          <Link href={item.link} target="_blank" key={item.title}>
+          <Link href={item.link} key={item.title}>
             <Card
               className="relative h-96 w-72 transition-all transform hover:scale-110 hover:shadow-lg"
             >

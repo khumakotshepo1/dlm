@@ -5,12 +5,12 @@ const Executive = () => {
     const data = [
         {
             title: "Mayco",
-            link: "/executive/mayco",
+            link: "executive/mayco",
             img: "/img/townhall.webp",
         },
         {
             title: "Office of the Mayor",
-            link: "/executive/office-of-the-mayor",
+            link: "executive/office-of-the-mayor",
             img: "/img/council/Cllr-Tseki-Tseki-Ward-14-ANC_11zon.webp",
         },
     ];

@@ -5,7 +5,7 @@ type navLinks = {
 
 export const AboutData = [
     {
-        title: "about-dihlabeng",
+        title: "about dihlabeng",
         link: "/about-us/about-dihlabeng",
     },
     {
@@ -17,7 +17,7 @@ export const AboutData = [
         link: "/about-us/mission"
     },
     {
-        title: "who-is-your-councillor",
+        title: "who is your councillor",
         link: "https://www.elections.org.za/pw/Voter/Who-Is-My-Ward-Councillor"
     }
 ]

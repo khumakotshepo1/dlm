@@ -12,7 +12,6 @@ import {
   NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
-  navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
 
 import { AboutData } from "@/components/header/aboutData";
@@ -20,13 +19,11 @@ import { widApi } from "@/app/work-in-dihlabeng/_components/wid-api";
 
 export function DesktopNav() {
   return (
-    <NavigationMenu className={"hidden lg:flex z-20"}>
+    <NavigationMenu className={"hidden lg:flex z-20 capitalize"}>
       <NavigationMenuList>
         <NavigationMenuItem>
           <Link href="/" legacyBehavior passHref>
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              Home
-            </NavigationMenuLink>
+            Home
           </Link>
         </NavigationMenuItem>
         <NavigationMenuItem>
@@ -34,11 +31,12 @@ export function DesktopNav() {
           <NavigationMenuContent>
             <ul className="flex flex-col p-4 w-[400px] gap-3">
               {AboutData.map((component) => (
-                <ListItem
+                <Link
                   key={component.title}
-                  title={component.title}
                   href={component.link}
-                ></ListItem>
+                >
+                  {component.title}
+                </Link>
               ))}
             </ul>
           </NavigationMenuContent>
@@ -49,11 +47,12 @@ export function DesktopNav() {
           <NavigationMenuContent>
             <ul className="flex flex-col p-4 w-[400px] gap-3">
               {AboutData.map((component) => (
-                <ListItem
+                <Link
                   key={component.title}
-                  title={component.title}
                   href={component.link}
-                ></ListItem>
+                >
+                  {component.title}
+                </Link>
               ))}
             </ul>
           </NavigationMenuContent>
@@ -64,11 +63,12 @@ export function DesktopNav() {
           <NavigationMenuContent>
             <ul className="flex flex-col p-4 w-[400px] gap-3">
               {widApi.map((component) => (
-                <ListItem
+                <Link
                   key={component.title}
-                  title={component.title}
                   href={component.link}
-                ></ListItem>
+                >
+                  {component.title}
+                </Link>
               ))}
             </ul>
           </NavigationMenuContent>
@@ -76,9 +76,7 @@ export function DesktopNav() {
 
         <NavigationMenuItem>
           <Link href="/jol-in-dihlabeng" legacyBehavior passHref>
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              Jol in Dihlabeng
-            </NavigationMenuLink>
+            Jol in Dihlabeng
           </Link>
         </NavigationMenuItem>
 
@@ -87,11 +85,12 @@ export function DesktopNav() {
           <NavigationMenuContent>
             <ul className="flex flex-col p-4 w-[400px] gap-3">
               {AboutData.map((component) => (
-                <ListItem
+                <Link
                   key={component.title}
-                  title={component.title}
                   href={component.link}
-                ></ListItem>
+                >
+                  {component.title}
+                </Link>
               ))}
             </ul>
           </NavigationMenuContent>
@@ -99,9 +98,7 @@ export function DesktopNav() {
 
         <NavigationMenuItem>
           <Link href="/media" legacyBehavior passHref>
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              Media
-            </NavigationMenuLink>
+            Media
           </Link>
         </NavigationMenuItem>
       </NavigationMenuList>
