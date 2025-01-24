@@ -1,4 +1,4 @@
-import {Status, LoadsheddingStage} from "eskom-loadshedding-api";
+import { Status, LoadsheddingStage } from "eskom-loadshedding-api";
 import AlertStatus from "./AlertStatus";
 
 const Loadshedding = async () => {
@@ -13,7 +13,7 @@ const Loadshedding = async () => {
 
     return (
         <>
-            {shedding >= 0 && <AlertStatus shedding={shedding} status={status}/>}
+            {shedding > 0 && <AlertStatus shedding={shedding} status={status} />}
         </>
     );
 };

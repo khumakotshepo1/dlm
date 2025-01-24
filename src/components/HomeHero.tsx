@@ -12,7 +12,7 @@ const HomeHero: React.FC = () => {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 flex flex-col items-center justify-center w-full h-screen px-4 text-center md:px-8 bg-gray-100/60 dark:bg-black/70 backdrop-blur-sm">
+      <div className="relative z-10 flex flex-col items-center pt-48 w-full h-screen px-4 text-center md:px-8 bg-gray-100/60 dark:bg-black/70 backdrop-blur-sm">
         <h1 className="text-3xl sm:text-4xl lg:text-6xl font-extrabold tracking-wide  text-foreground">
           Welcome to Our Local Municipality
         </h1>

@@ -36,7 +36,7 @@ export default function RootLayout({
 
           <Header />
 
-          <main className="flex-1 container pt-12 mb-36">
+          <main className="flex-1 pt-12 mb-36">
             {children}
           </main>
 

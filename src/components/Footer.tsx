@@ -11,7 +11,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="flex flex-col gap-3 justify-center items-center mt-36">
+    <footer className="flex flex-col gap-3 justify-center items-center">
       <ul className="flex justify-center items-center text-2xl p-3 gap-4 ">
         <li>
           <Link
